@@ -1,0 +1,105 @@
+$date
+	Mon Jul 29 19:47:47 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module single_port_ram_tb $end
+$var wire 8 ! q [7:0] $end
+$var reg 6 " addr [5:0] $end
+$var reg 1 # clk $end
+$var reg 8 $ data [7:0] $end
+$var reg 1 % we $end
+$scope module spr1 $end
+$var wire 6 & addr [5:0] $end
+$var wire 1 # clk $end
+$var wire 8 ' data [7:0] $end
+$var wire 8 ( q [7:0] $end
+$var wire 1 % we $end
+$var reg 6 ) addr_reg [5:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx )
+bx (
+b1 '
+b0 &
+1%
+b1 $
+1#
+b0 "
+bx !
+$end
+#5
+0#
+#10
+1#
+b1 "
+b1 &
+b10 $
+b10 '
+#15
+0#
+#20
+1#
+b10 "
+b10 &
+b11 $
+b11 '
+#25
+0#
+#30
+b1 !
+b1 (
+b0 )
+1#
+0%
+b0 "
+b0 &
+#35
+0#
+#40
+b10 !
+b10 (
+b1 )
+1#
+b1 "
+b1 &
+#45
+0#
+#50
+b11 !
+b11 (
+b10 )
+1#
+b10 "
+b10 &
+#55
+0#
+#60
+1#
+1%
+b1 "
+b1 &
+b100 $
+b100 '
+#65
+0#
+#70
+b100 !
+b100 (
+b1 )
+1#
+0%
+#75
+0#
+#80
+1#
